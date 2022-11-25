@@ -1,7 +1,3 @@
-//import { useAuth0 } from '@auth0/auth0-react';
-//import { Profile } from './Profile';
-//import { LoginButton } from './Login';
-//import { LogoutButton } from './Logout';
 import React from 'react';
 import './App.css';
 import { Home } from './Components/Home';
@@ -9,7 +5,7 @@ import {Header} from './Components/Header';
 import { ErrorNotFound } from './Components/ErrorNotFound';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { CitasMedicas } from './Components/CitasMedicas';
-
+import { Certificados } from './Components/Certificados';
 
 function App() {
   return (
@@ -23,6 +19,7 @@ function App() {
       <Route exact path="*"element = {<ErrorNotFound/>}/>
       <Route exact path="/CitasMedicas"element = {<CitasMedicas/>}/>
       <Route exact path="/home"element = {<Home/>}/>
+      <Route exact path="/Certificados" element = {<Certificados/>}/>
       </Routes>
       </BrowserRouter>
     </div>

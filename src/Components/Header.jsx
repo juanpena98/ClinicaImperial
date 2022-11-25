@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../imagesClinica/logo.png'
+import Logo from '../imagesClinica/logopequeño.PNG'
 
 export const Header = () => {
   return (
@@ -7,7 +7,7 @@ export const Header = () => {
     <header style={{color:"white"}}>
         <nav className="navbar navbar-expand-lg navbar-ligth bg-green">
             <a href="">
-                <img src={Logo} height="100" alt="No Encontrada"/>
+                <img src={Logo}  height="100" alt="No Encontrada"/>
             </a>
             <h1>
                 Clinica Integral Imperial
