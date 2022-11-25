@@ -6,7 +6,7 @@ import { ErrorNotFound } from './Components/ErrorNotFound';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { CitasMedicas } from './Components/CitasMedicas';
 import { Certificados } from './Components/Certificados';
-
+import { Mensajes } from './Components/Mensajes';
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,9 @@ function App() {
       <Route exact path="/CitasMedicas"element = {<CitasMedicas/>}/>
       <Route exact path="/home"element = {<Home/>}/>
       <Route exact path="/Certificados" element = {<Certificados/>}/>
+      <Route exact path="/Mensajes" element = {<Mensajes/>}/>
+      
+      
       </Routes>
       </BrowserRouter>
     </div>
