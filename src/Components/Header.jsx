@@ -14,7 +14,7 @@ export const Header = () => {
             </h1>
 
             <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span className="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"><i className="bi bi-list"></i></span>
             </button>
 
             <div className="collapse navbar-collapse" id="navbarCollapse">
