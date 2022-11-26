@@ -1,4 +1,5 @@
 import React , {useState, useEffect } from 'react'
+import { Footer } from './Footer';
 
 export const Formulario = () => {
 
@@ -170,7 +171,7 @@ export const Formulario = () => {
             { registrosls.length < 1 && <><h2>No Hay Registros Para Listar!!</h2></> }
                             
         </div>
-
+        <Footer/>
     </div>
 
   )

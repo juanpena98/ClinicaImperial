@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { Footer } from './Footer';
 export const Mensajes = () => {
 
   const obtenerRegistros = () => {
@@ -59,6 +60,7 @@ export const Mensajes = () => {
                 </button>
             </form>
         </div>
+        <Footer/>
     </center>
   )
 }

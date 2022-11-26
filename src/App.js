@@ -11,6 +11,7 @@ import { Formulario } from './Components/Formulario';
 import { Centros } from './Components/Centros';
 import { FormularioOdonto } from './Components/FormularioOdonto';
 import { FormularioCardio } from './Components/FormularioCardio';
+import { PQR } from './Components/PQR';
 
 
 
@@ -34,7 +35,7 @@ function App() {
       <Route exact path="/Centros" element = {<Centros/>}/>
       <Route exact path="/FormularioOdonto" element = {<FormularioOdonto/>}/>
       <Route exact path="/FormularioCardio" element = {<FormularioCardio/>}/>
-      
+      <Route exact path="/PQRs" element = {<PQR/>}/>
 
             
       
