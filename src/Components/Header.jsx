@@ -22,8 +22,8 @@ export const Header = () => {
                 <div className="navbar-nav ms-auto">
                     <h4><NavLink to ="/home" className="nav-item nav-link text-center" style={{color:"black"}}> Inicio </NavLink></h4>
                     <h4><NavLink to ="/CitasMedicas" className="nav-item nav-link text-center" style={{color:"black"}} > Citas </NavLink></h4>
-                    <h4><NavLink to = "/Certificados" className="nav-item nav-link text-center" style={{color:"black"}} > Mis Datos </NavLink></h4>
-                    <h4><NavLink to ="/Mensajes" className="nav-item nav-link text-center" style={{color:"black"}} >Mi Afiliación</NavLink></h4>
+                    <h4><NavLink to = "/Certificados" className="nav-item nav-link text-center" style={{color:"black"}} > Certificados </NavLink></h4>
+                    <h4><NavLink to ="/Mensajes" className="nav-item nav-link text-center" style={{color:"black"}} >Contactenos</NavLink></h4>
 
                  </div>
 

@@ -1,15 +1,14 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const Footer = () => {
   return (
     <div className="container">
         <footer className="py-3 my-4">
             <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Horarios</a></li>
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Medicamentos</a></li>
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Servicios</a></li>
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Configuracion</a></li>
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">FAQs</a></li>
+            <li><NavLink to ="/Formulario" className="nav-item nav-link text-center" style={{color:"black"}}> Formulario </NavLink></li>
+            <li><NavLink to ="/Centros" className="nav-item nav-link text-center" style={{color:"black"}}> Centros de Atencion </NavLink></li>
+            <li><NavLink to ="/Mensajes" className="nav-item nav-link text-center" style={{color:"black"}}> PQRs </NavLink></li>        
             </ul>
             <p className="text-center text-muted">&copy; 2022 Clinica Imperial.</p>
         </footer>
