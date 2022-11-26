@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from '../imagesClinica/logopequeño.PNG'
 import { NavLink } from 'react-router-dom'
-import { inicio } from './inicio'
 
 export const Header = () => {
   return (
