@@ -14,6 +14,7 @@ function App() {
       
       <Header/>
 
+      
       <Routes>
       <Route exact path ="/" element = {<Home/>}/>
       <Route exact path="*"element = {<ErrorNotFound/>}/>
@@ -21,7 +22,7 @@ function App() {
       <Route exact path="/home"element = {<Home/>}/>
       <Route exact path="/Certificados" element = {<Certificados/>}/>
       <Route exact path="/Mensajes" element = {<Mensajes/>}/>
-      
+            
       
       
       
