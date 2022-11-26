@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from './Footer'
 import Afiliacion from "../imagesClinica/Afiliacion.PNG"
 import Condicion from "../imagesClinica/Condicion medica.PNG"
 import PazySalvo from "../imagesClinica/pazysalvo.PNG"
@@ -39,6 +40,7 @@ export const Certificados = () => {
         </div>
             </div>
         </center>
+        <Footer/>
     </>
   )
 }
