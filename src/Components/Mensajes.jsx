@@ -47,7 +47,8 @@ export const Mensajes = () => {
       <center>
         <div className="container" style={{width:"70%", marginTop:20, background:"#acfd9f", padding:20}}>
             <form id="miFormulario" onSubmit={botonGuardarSimple}>
-                <h1 className='h1'>Mensajes</h1>
+                <h1 className='h1'>Peticiones, Quejas y Reclamos</h1>
+                <p> Este canal de atención está dispuesto para recepcionar sus solicitudes  reportar alguna falencia o algún comentario que desee hacernos.</p>
                 <input style={{marginBottom:20}} className="form-control form-control-lg" type="text" placeholder="Digite su Nombre" onChange={(e)=>setNombre(e.target.value)} />
                 <input style={{marginBottom:20}} className="form-control form-control-lg" type="email" placeholder="Digite su Correo" onChange={(e)=>setCorreo(e.target.value)} />
                 <textarea style={{marginBottom:20}} className="form-control form-control-lg" placeholder="Digite su Mensaje" onChange={(e)=>setMensaje(e.target.value)}>
