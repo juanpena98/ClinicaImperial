@@ -18,11 +18,14 @@
     "universal-cookie": "^4.0.4",
     "web-vitals": "^2.1.4"
   },
+"homepage": "https://clinicaimperial.000webhostapp.com/",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": [

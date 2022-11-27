@@ -6,7 +6,7 @@ export const Footer = () => {
     <div className="container">
         <footer className="py-3 my-4">
             <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-            <li><NavLink to ="/Formulario" className="nav-item nav-link text-center" style={{color:"black"}}> Formulario </NavLink></li>
+            <li><NavLink to ="/FormularioCertificado" className="nav-item nav-link text-center" style={{color:"black"}}> Solicita tu Certificado </NavLink></li>
             <li><NavLink to ="/Centros" className="nav-item nav-link text-center" style={{color:"black"}}> Centros de Atencion </NavLink></li>
             <li><NavLink to ="/Mensajes" className="nav-item nav-link text-center" style={{color:"black"}}> PQRs </NavLink></li>    
             <li><NavLink to ="/AcercaDe" className="nav-item nav-link text-center" style={{color:"black"}}> AcercaDe </NavLink></li>    
