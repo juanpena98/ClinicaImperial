@@ -60,7 +60,7 @@ const obtenerRegistros = () => {
     return (
     
     <div className="container">
-            <div className="row"><div className="col"><h1>Formulario Medicina General</h1></div></div>
+            <div className="row"><div className="col"><h1>Formulario Cita Cardiologia</h1></div></div>
             <form id="miFormulario" onSubmit={ botonGuardar }>
                 <div className="row">
                     <div className="col-6">

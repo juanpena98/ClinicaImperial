@@ -14,6 +14,7 @@ import { FormularioCardio } from './Components/FormularioCardio';
 import { AcercaDe} from './Components/AcercaDe'
 import { FormularioCertificados } from './Components/FormularioCertificados';
 
+
 function App() {
   return (
     <div className="App">
@@ -34,6 +35,8 @@ function App() {
       <Route exact path="/FormularioCardio" element = {<FormularioCardio/>}/>
       <Route exact path="/FormularioCertificado" element = {<FormularioCertificados/>}/>
       <Route exact path="/AcercaDe" element = {<AcercaDe/>}/>
+      
+      
       </Routes>
       </BrowserRouter>
     </div>
