@@ -18,7 +18,7 @@ export const Certificados = () => {
             </br>
             <br>
             </br>
-        <p><a className = "btn btn-secondary" href="#">Solicitar &raquo;</a></p>
+        <p><a className = "btn btn-secondary" href="/FormularioCertificado">Solicitar &raquo;</a></p>
         
         
         </div>
@@ -27,14 +27,14 @@ export const Certificados = () => {
             <h2 className = "fw-normal">CERTIFICADO DE APORTES O PAZ Y SALVO</h2>
             <br>
             </br>
-            <p><a className = "btn btn-secondary" href="#">Solicitar &raquo;</a></p>
+            <p><a className = "btn btn-secondary" href="/FormularioCertificado">Solicitar &raquo;</a></p>
         </div>
         <div className = "col-lg-4">
             <img className width="170" height="170" src ={Condicion} alt ="..."/>
             <h2 className = "fw-normal">CERTIFICADO DE CONDICIÒN MÈDICA DE RIESGO</h2>
            <br>
            </br>
-            <p><a className = "btn btn-secondary" href="#">Solicitar &raquo;</a></p>
+            <p><a className = "btn btn-secondary" href="/FormularioCertificado">Solicitar &raquo;</a></p>
 
         </div>
         </div>

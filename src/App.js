@@ -11,19 +11,16 @@ import { Formulario } from './Components/Formulario';
 import { Centros } from './Components/Centros';
 import { FormularioOdonto } from './Components/FormularioOdonto';
 import { FormularioCardio } from './Components/FormularioCardio';
-import { PQR } from './Components/PQR';
-import { AcercaDe } from './Components/AcercaDe';
-import Login from './Components/Login';
-
-
-
+import { AcercaDe} from './Components/AcercaDe'
+import { FormularioCertificados } from './Components/FormularioCertificados';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+    <BrowserRouter>
       
       <Header/>
+      
       <Routes>
       <Route exact path ="/" element = {<Home/>}/>
       <Route exact path="*"element = {<ErrorNotFound/>}/>
@@ -31,19 +28,15 @@ function App() {
       <Route exact path="/Certificados" element = {<Certificados/>}/>
       <Route exact path="/CitasMedicas"element = {<CitasMedicas/>}/>
       <Route exact path="/Mensajes" element = {<Mensajes/>}/>
-      <Route exact path="/Formulario" element = {<Formulario/>}/>
       <Route exact path="/Centros" element = {<Centros/>}/>
+      <Route exact path="/Formulario" element = {<Formulario/>}/>
       <Route exact path="/FormularioOdonto" element = {<FormularioOdonto/>}/>
       <Route exact path="/FormularioCardio" element = {<FormularioCardio/>}/>
-      <Route exact path="/PQRs" element = {<PQR/>}/>
+      <Route exact path="/FormularioCertificado" element = {<FormularioCertificados/>}/>
       <Route exact path="/AcercaDe" element = {<AcercaDe/>}/>
-      <Route exact path="/Login" element = {<Login/>}/>
-      
-
       </Routes>
       </BrowserRouter>
     </div>
   );
 }
-
 export default App;
