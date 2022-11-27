@@ -4,6 +4,8 @@ import card20 from '../imagesClinica/card20.jpg'
 import card3 from '../imagesClinica/card3.png'
 import card4 from '../imagesClinica/card4.jpg'
 import card5 from '../imagesClinica/card5.jpg'
+import { Footer } from './Footer'
+import { Header } from './Header'
 
 
 export const ContentHome = () => {
@@ -86,6 +88,7 @@ export const ContentHome = () => {
             
             
             </div>
-    </div>    
+            </div>
+                   
   )
 }

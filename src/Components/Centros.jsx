@@ -3,10 +3,13 @@ import Hospital from "../imagesClinica/Hospital.jpg"
 import HospitalGrace from "../imagesClinica/HospitalGrace.jpg"
 import HospitalGraceWest from "../imagesClinica/HospitalGraceWest.jpg"
 import { Footer } from './Footer'
+import { Header } from './Header'
 
 export const Centros = () => {
+
     return (
         <>
+        <Header/>
             <center>
                 <div className="container" style={{marginTop:60}}>
     

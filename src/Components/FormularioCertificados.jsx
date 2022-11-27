@@ -1,5 +1,6 @@
 import React , {useState, useEffect } from 'react'
 import { Footer } from './Footer';
+import { Header } from './Header';
 
 export const FormularioCertificados = () => {
     const obtenerRegistros = () => {
@@ -57,6 +58,7 @@ export const FormularioCertificados = () => {
 
 
     return (
+<><Header/>
     
     <div className="container">
             <div className="row"><div className="col"><h1>Formulario Certificados</h1></div></div>
@@ -143,7 +145,7 @@ export const FormularioCertificados = () => {
                             
         </div>
         <Footer/>
-    </div>
+    </div></>
 
   )
 }

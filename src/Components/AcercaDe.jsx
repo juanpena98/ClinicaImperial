@@ -1,10 +1,15 @@
 import React from 'react'
 import Hospital from '../imagesClinica/Hospital.jpg'
 import { Footer } from './Footer'
+import { Header } from './Header'
 
 export const AcercaDe = () => {
+  
     return (
-        <div className="container my-5">
+   <>
+   <Header/>
+    <div className="container my-5">
+    
         <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
           <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
             <h1 className="display-4 fw-bold lh-1">Clinica Imperial</h1>
@@ -39,6 +44,7 @@ export const AcercaDe = () => {
         </div>
       <Footer/>
       </div>
+      </>
       )
     }
     

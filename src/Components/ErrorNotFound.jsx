@@ -1,8 +1,11 @@
 import React from 'react'
 import error404 from '../imagesClinica/error404.png'
 import { Footer } from './Footer'
+import { Header } from './Header'
 
 export const ErrorNotFound = () => {
+  <>
+  <Header/>
   return (
     <div className="container">
         <center>
@@ -13,6 +16,6 @@ export const ErrorNotFound = () => {
         <Footer/>
     </div>
   )
-  
+  </> 
 }
 

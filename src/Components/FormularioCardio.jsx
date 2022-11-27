@@ -1,5 +1,6 @@
 import React, {useState, useEffect } from 'react'
 import { Footer } from './Footer';
+import { Header } from './Header';
 
 export const FormularioCardio = () => { 
 
@@ -58,7 +59,7 @@ const obtenerRegistros = () => {
 
 
     return (
-    
+    <><Header/>
     <div className="container">
             <div className="row"><div className="col"><h1>Formulario Cita Cardiologia</h1></div></div>
             <form id="miFormulario" onSubmit={ botonGuardar }>
@@ -172,7 +173,7 @@ const obtenerRegistros = () => {
                             
         </div>
         <Footer/>
-    </div>
+    </div></>
 
   )
 }

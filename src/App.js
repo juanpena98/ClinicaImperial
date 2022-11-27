@@ -15,15 +15,17 @@ import { AcercaDe} from './Components/AcercaDe'
 import { FormularioCertificados } from './Components/FormularioCertificados';
 
 
+import { Login } from './Components/Login';
+
+
 function App() {
   return (
     <div className="App">
     <BrowserRouter>
       
-      <Header/>
       
       <Routes>
-      <Route exact path ="/" element = {<Home/>}/>
+      <Route exact path ="/" element = {<Login/>}/>
       <Route exact path="*"element = {<ErrorNotFound/>}/>
       <Route exact path="/home"element = {<Home/>}/>
       <Route exact path="/Certificados" element = {<Certificados/>}/>

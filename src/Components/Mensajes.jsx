@@ -1,13 +1,16 @@
 import React, {useState, useEffect} from 'react'
 import { Footer } from './Footer';
+import { Header } from './Header';
 export const Mensajes = () => {
-
+  
+<Header/>
   const obtenerRegistros = () => {
     var datos = localStorage.getItem("registros");
     if(datos){
       return JSON.parse(datos);
     }else{
       return [];
+
     }
   }
 
@@ -45,6 +48,9 @@ export const Mensajes = () => {
 
 
   return (
+    <>
+    
+
       <center>
         <div className="container" style={{width:"70%", marginTop:20, background:"#acfd9f", padding:20}}>
             <form id="miFormulario" onSubmit={botonGuardarSimple}>
@@ -59,8 +65,12 @@ export const Mensajes = () => {
                     Enviar Mensaje
                 </button>
             </form>
+            
         </div>
+        
         <Footer/>
-    </center>
+    </center>     </>
+    
   )
 }
+

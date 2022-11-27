@@ -1,8 +1,9 @@
 import React , {useState, useEffect } from 'react'
 import { Footer } from './Footer';
-
+import { Header } from './Header';
+   
 export const Formulario = () => {
-
+    
     const obtenerRegistros = () => {
         var datos = localStorage.getItem("registrosls");
         if(datos){
@@ -11,7 +12,6 @@ export const Formulario = () => {
             return [];
         }
     }
-
 
     const [registrosls, setRegistrosLS] = useState(obtenerRegistros());
 
@@ -58,7 +58,9 @@ export const Formulario = () => {
 
 
     return (
-    
+    <>
+        <Header/> 
+
     <div className="container">
             <div className="row"><div className="col"><h1>Formulario Medicina General</h1></div></div>
             <form id="miFormulario" onSubmit={ botonGuardar }>
@@ -173,6 +175,7 @@ export const Formulario = () => {
         </div>
         <Footer/>
     </div>
-
+    </>
   )
+  
 }

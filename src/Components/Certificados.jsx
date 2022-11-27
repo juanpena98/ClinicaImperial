@@ -3,10 +3,12 @@ import { Footer } from './Footer'
 import Afiliacion from "../imagesClinica/Afiliacion.PNG"
 import Condicion from "../imagesClinica/Condicion medica.PNG"
 import PazySalvo from "../imagesClinica/pazysalvo.PNG"
+import { Header } from './Header'
 
 export const Certificados = () => {
   return (
     <>
+    <Header/>
         <center>
             <div className="container" style={{marginTop:60}}>
 

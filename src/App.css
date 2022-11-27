@@ -61,7 +61,7 @@
 
 .banner {
   width: 100%;
-  background: linear-gradient(#16ed12 0%, #fff 100%);
+  background: linear-gradient(hsl(119, 98%, 79%) 0%, #fff 100%);
   flex-direction: row;
   flex-basis: 11%;
   justify-content: flex-start;

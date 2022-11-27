@@ -3,10 +3,12 @@ import { Footer } from './Footer'
 import citas from "../imagesClinica/MedicinaG.PNG"
 import Odonto from "../imagesClinica/odontologiaG.PNG"
 import cardio from "../imagesClinica/CardiologiaG.PNG"
+import { Header } from './Header'
 
 export const CitasMedicas = () => {
   return (
     <>
+    <Header/>
         <center>
             <div className="container" style={{marginTop:60}}>
 
