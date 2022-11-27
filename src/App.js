@@ -12,6 +12,8 @@ import { Centros } from './Components/Centros';
 import { FormularioOdonto } from './Components/FormularioOdonto';
 import { FormularioCardio } from './Components/FormularioCardio';
 import { PQR } from './Components/PQR';
+import { AcercaDe } from './Components/AcercaDe';
+import Login from './Components/Login';
 
 
 
@@ -36,11 +38,10 @@ function App() {
       <Route exact path="/FormularioOdonto" element = {<FormularioOdonto/>}/>
       <Route exact path="/FormularioCardio" element = {<FormularioCardio/>}/>
       <Route exact path="/PQRs" element = {<PQR/>}/>
+      <Route exact path="/AcercaDe" element = {<AcercaDe/>}/>
+      <Route exact path="/Login" element = {<Login/>}/>
+      
 
-            
-      
-      
-      
       </Routes>
       </BrowserRouter>
     </div>
